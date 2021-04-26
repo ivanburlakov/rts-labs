@@ -1,0 +1,44 @@
+.App {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.results {
+  flex: 1;
+  position: relative;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.center {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mx {
+  display: block;
+}
+
+.dx {
+  display: block;
+}
+
+.chart {
+  position: relative;
+  height: 100%s;
+  width: 100%;
+  flex: 5;
+}
